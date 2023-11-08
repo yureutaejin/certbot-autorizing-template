@@ -8,7 +8,7 @@ Goal은 `git clone` 및 실행만으로, 어떤 환경 어떤 아키텍쳐든 ss
 2. letsencrypt 인증서 발급
     1. 웹서버
     2. 인증서만 발금
-3. certbot 갱신
+3. [certbot renew](#certbot-renew)
 4. letsencrypt 및 certbot 이관
 5. 기타 유용한 certbot 명령어
 ---
@@ -16,7 +16,7 @@ Goal은 `git clone` 및 실행만으로, 어떤 환경 어떤 아키텍쳐든 ss
 
 
 ---
-## certbot 갱신
+## cerbot renew
 분명히 cron에 certbot renew를 등록했음에도 갱신이 안되는 경우를 위해 그냥 아예 cron까지 자동화하여 certbot 갱신과정 등록  
 linux 상 root 계정 접속이 필요
 1. `setting_cerbot_cron.sh`의 10번째 줄에 있는 cron 주기를 원하는대로 변경
