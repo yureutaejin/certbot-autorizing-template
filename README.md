@@ -1,4 +1,4 @@
-# certbot-study Repository  
+# certbot-autorizing-template Repository  
 ## Introduction
 https 적용 시에 letsencrypt 및 certbot 관련 이슈가 생각보다 많은데, 자료는 구더기가 많아, 몸으로 체득하려고 만든 repo.  
 Goal은 `git clone` 및 실행만으로, 어떤 환경 어떤 아키텍쳐든 ssl 인증 딱히 머리 아프게 생각할 필요 없도록 한방에 이루어지고 관리가 필요없도록 하는게 목적  
